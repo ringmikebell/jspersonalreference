@@ -43,13 +43,19 @@ while (sloopy < 20) {
 // do-while loops
 
 // difference vs a while loop is that do-while loops gaurantee the body of code will be executed at 
-// least once.  the condition for repeating the statement is at the end of the loop, 
+// least once, even if the conditional is false.  the condition for repeating the statement is at the end of the loop, 
 // instead of preceding it.
 
-do {
-	console.log()
 
-}
+var chillOutSloopy = -2;
+
+do {
+	console.log("relax sloopy, this is a do-while loop")
+} while (--chillOutSloopy > 0);  
+
+
+
+
 
 // to avoid - infinite loops.  if you write a while-loop conditional that never becomes false,
 // the loop will run forever.  In JS, there is a built in functionality that detects and can halt

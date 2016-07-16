@@ -27,16 +27,26 @@ console.log(arrayOfBeatles.length);
 
 arrayOfBeatles.push("Stuart");
 
+
 console.log(arrayOfBeatles);
 console.log(arrayOfBeatles.length);
+
 
 
 //pop - removes the last element from an array and returns it
 
 arrayOfBeatles.pop();
 
+// or 
+
+var beatleStuff = lotsOfBeatlesStuff.pop();
+
+
 console.log(arrayOfBeatles);
 console.log(arrayOfBeatles.length);
+
+console.log(beatleStuff);
+
 
 
 //shift - removes the first element from an array an returns it
@@ -56,44 +66,19 @@ console.log(arrayOfBeatles.length);
 
 
 
+// follow the logic brain exercise
 
 
+var a = new Array(4);
+for (i = 0; i < 4; i++) {
+  a[i] = new Array(4);
+  for (j = 0; j < 4; j++) {
+    a[i][j] = "[" + i + "," + j + "]";
+    a[i][j] = new Array(4);
+    	for (k = 0; k < 4; k++) {
+    a[i][j][k] = "[" + i + "," + j + "," + k +"]";
+	   }
+  }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// concatenation
-
-// var a = new Array(4);
-// for (i = 0; i < 4; i++) {
-//   a[i] = new Array(4);
-//   for (j = 0; j < 4; j++) {
-//     a[i][j] = "[" + i + "," + j + "]";
-//     a[i][j] = new Array(4);
-//     	for (k = 0; k < 4; k++) {
-//     a[i][j][k] = "[" + i + "," + j + "," + k +"]";
-// 	   }
-//   }
-// }
-
-// console.log(a);
+console.log(a);
