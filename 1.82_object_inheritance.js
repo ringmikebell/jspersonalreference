@@ -2,11 +2,11 @@
 
 var candidate = {
 
-	leftRight				: "unknown",
-	popLib					: "unknown",
-	modExtrm				: "unknown",
-	amusingQuirk			: "unknown",
-	nemesis					: "unknown",
+	leftRight				: "",
+	popLib					: "",
+	modExtrm				: "",
+	amusingQuirk			: "",
+	nemesis					: "",
 	hasBadCombover			: null,
 	gravitas				: 0,
 
@@ -51,10 +51,11 @@ trump.makeIgnorantComment();
 var randomTrumpGaffe = 0;
         
 while (randomTrumpGaffe < 5) {
-    console.log(trump.makeIgnorantComment());
+    trump.makeIgnorantComment();
 
-    randomTrumpGaffe++
-};
+    randomTrumpGaffe++;
+}
+
 
 // for (randomTrumpGaffe = 0; randomTrumpGaffe < 8; randomTrumpGaffe++) {
 // console.log(trump.makeIgnorantComment());

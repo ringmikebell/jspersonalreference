@@ -1,0 +1,766 @@
+Last login: Thu Jul 14 09:46:22 on ttys000
+Mike-Bel-Laptop:~ MikeBelLaptop$ cd desktop
+Mike-Bel-Laptop:desktop MikeBelLaptop$ cd JS\ Class
+Mike-Bel-Laptop:JS Class MikeBelLaptop$ ls
+JSlib		awesome-test	jspersonalref	playground	project
+ajaxLibrary	githubdemo	node stuff	portfolio
+Mike-Bel-Laptop:JS Class MikeBelLaptop$ cd jspersonalref/
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git init
+Initialized empty Git repository in /Users/MikeBelLaptop/Desktop/JS Class/jspersonalref/.git/
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "test"
+[master (root-commit) 7a28b59] test
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 1.00_integers.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ 
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ 
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ echo "# jspersonalreference" >> README.md
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git init
+Reinitialized existing Git repository in /Users/MikeBelLaptop/Desktop/JS Class/jspersonalref/.git/
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add README.md
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "first commit"
+[master 2ad7e2e] first commit
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git remote add origin https://github.com/ringmikebell/jspersonalreference.git
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push -u origin master
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (6/6), 471 bytes | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "test"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Everything up-to-date
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "integer section added"
+[master c19749d] integer section added
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 51 insertions(+), 1 deletion(-)
+ rewrite 1.00_integers.js (100%)
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 564 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   2ad7e2e..c19749d  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds string notes"
+[master 395a727] adds string notes
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 43 insertions(+)
+ create mode 100644 1.10_strings.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 873 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   c19749d..395a727  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds description of booleans"
+[master 26af0fc] adds description of booleans
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 58 insertions(+)
+ create mode 100644 1.20_booleans.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 897 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   395a727..26af0fc  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds conditional discussion"
+[master ef1e506] adds conditional discussion
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 3 files changed, 91 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 1.30_conditionals.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.45 KiB | 0 bytes/s, done.
+Total 5 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   26af0fc..ef1e506  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds description of functions"
+[master 568e418] adds description of functions
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 93 insertions(+)
+ create mode 100644 1.40_functions.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.04 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   ef1e506..568e418  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Everything up-to-date
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Everything up-to-date
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds for-loops"
+[master dc2e36c] adds for-loops
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 99 insertions(+)
+ create mode 100644 1.5_while_loops.js
+ create mode 100644 1.60_for_loops.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.11 KiB | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   568e418..dc2e36c  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds description of arrays"
+[master 1a9cbef] adds description of arrays
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 99 insertions(+)
+ create mode 100644 1.70_arrays.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 966 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   dc2e36c..1a9cbef  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   1.5_while_loops.js
+	modified:   1.70_arrays.js
+
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds to exisiting while loop and array descriptions"
+[master 2f98748] adds to exisiting while loop and array descriptions
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 32 insertions(+), 41 deletions(-)
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 729 bytes | 0 bytes/s, done.
+Total 4 (delta 3), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   1a9cbef..2f98748  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds loop iteration description"
+[master 231a422] adds loop iteration description
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 10 insertions(+)
+ create mode 100644 1.71_loop_over_arrays.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 452 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   2f98748..231a422  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds object description"
+[master 6ab4e13] adds object description
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 31 insertions(+)
+ rename 1.5_while_loops.js => 1.50_while_loops.js (100%)
+ create mode 100644 1.80_object_properties.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 712 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   231a422..6ab4e13  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds method description"
+[master 3149e1e] adds method description
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 46 insertions(+)
+ create mode 100644 1.81_object_methods.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 721 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   6ab4e13..3149e1e  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds object inheritance description"
+[master 05b1499] adds object inheritance description
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 35 insertions(+)
+ create mode 100644 1.82_object_inheritance.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 601 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   3149e1e..05b1499  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds object inheritance, comment generator needs more work - random "undefined" shows up between console logs when comment generator runs multiple times"
+[master a50341f] adds object inheritance, comment generator needs more work - random undefined shows up between console logs when comment generator runs multiple times
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 35 insertions(+), 2 deletions(-)
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.11 KiB | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   05b1499..a50341f  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$
