@@ -9,9 +9,9 @@ however, this allows arrays in javascript to be more easily used and manipulated
 
 var anEmptyArray = [];
 
-var differentElementsJSArray = ['dog', 3, false]
+var differentElementsJSArray = ['dog', 3, false];
 
-var someClassmatesArray ['ryan,' 'evan', 'chris', 'megan', 'tara', 'matt']
+var someClassmatesArray = ['ryan,' 'evan', 'chris', 'megan', 'tara', 'matt'];
 
 
 
@@ -26,7 +26,7 @@ var someClassmatesObject = {
 	'3': 'megan',
 	'4': 'tara',
 	'5': 'matt'
-}
+};
 
 
 
