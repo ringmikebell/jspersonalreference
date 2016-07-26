@@ -1,0 +1,40 @@
+array - in its most general sense, a list of stuff in a definite order, that order kept by an index number (starting at 0...NOT 1)
+
+
+behind the scene in javascript, arrays are actually objects structured to have array-like behavior, with significant performance overhead versus arrays in some other languages that are much more performant.
+
+
+however, this allows arrays in javascript to be more easily used and manipulated by developers than in some other languages.  this also allows javascript arrays to hold elements of different types - unlike many other languages.
+
+
+var anEmptyArray = [];
+
+var differentElementsJSArray = ['dog', 3, false]
+
+var someClassmatesArray ['ryan,' 'evan', 'chris', 'megan', 'tara', 'matt']
+
+
+
+the index 'ryan' is 0, for 'even' is 1, 'chris' 2, and so on.  
+
+again, behind the scenes, this index number is a property name.
+
+var someClassmatesObject = {
+	'0': 'ryan',
+	'1': 'evan',
+	'2': 'chris',
+	'3': 'megan',
+	'4': 'tara',
+	'5': 'matt'
+}
+
+
+
+while someClassmatesArray and someClassmatesObject are essentially equilalent, arrays inherit from the Array.prototype which includes many useful methods that objects don't have.
+
+
+
+
+
+
+
