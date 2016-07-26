@@ -1,0 +1,208 @@
+Last login: Mon Jul 25 15:37:41 on ttys000
+Mike-Bel-Laptop:~ MikeBelLaptop$ cd desktop/jsClass/jspersonalref/
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds 2.0 arrays general info module"
+[master 1535ef8] adds 2.0 arrays general info module
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 14 files changed, 40 insertions(+)
+ rename 1.00_integers.js => 1/1.00_integers.js (100%)
+ rename 1.10_strings.js => 1/1.10_strings.js (100%)
+ rename 1.20_booleans.js => 1/1.20_booleans.js (100%)
+ rename 1.30_conditionals.js => 1/1.30_conditionals.js (100%)
+ rename 1.40_functions.js => 1/1.40_functions.js (100%)
+ rename 1.50_while_loops.js => 1/1.50_while_loops.js (100%)
+ rename 1.60_for_loops.js => 1/1.60_for_loops.js (100%)
+ rename 1.70_arrays.js => 1/1.70_arrays.js (100%)
+ rename 1.71_loop_over_arrays.js => 1/1.71_loop_over_arrays.js (100%)
+ rename 1.80_object_properties.js => 1/1.80_object_properties.js (100%)
+ rename 1.81_object_methods.js => 1/1.81_object_methods.js (100%)
+ rename 1.82_object_inheritance.js => 1/1.82_object_inheritance.js (100%)
+ create mode 100644 2/2.0_array_general_info
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 6, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.62 KiB | 0 bytes/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   c9f8b5a..1535ef8  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds array length, push, and quirks module.  minor typo corrections to 2.0 array_general_info"
+[master 48b295d] adds array length, push, and quirks module.  minor typo corrections to 2.0 array_general_info
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 2 files changed, 81 insertions(+), 3 deletions(-)
+ create mode 100644 2/2.1_arrays_length.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 995 bytes | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+   1535ef8..48b295d  master -> master
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git branch develop
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git checkout develop
+Switched to branch 'develop'
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git add .
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git commit -m "adds 2.2 array delete module"
+[develop b34a2cb] adds 2.2 array delete module
+ Committer: Mike Bel <MikeBelLaptop@Mike-Bel-Laptop.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 62 insertions(+)
+ create mode 100644 2/2.2_arrays_delete.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+fatal: The current branch develop has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin develop
+
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git push --set-upstream origin develop
+Counting objects: 4, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 955 bytes | 0 bytes/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+To https://github.com/ringmikebell/jspersonalreference.git
+ * [new branch]      develop -> develop
+Branch develop set up to track remote branch develop from origin.
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git status
+On branch develop
+Your branch is up-to-date with 'origin/develop'.
+nothing to commit, working directory clean
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git pull
+remote: Counting objects: 1, done.
+remote: Total 1 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (1/1), done.
+From https://github.com/ringmikebell/jspersonalreference
+   48b295d..ec9ae6b  master     -> origin/master
+Already up-to-date.
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git checkout master
+Switched to branch 'master'
+Your branch is behind 'origin/master' by 2 commits, and can be fast-forwarded.
+  (use "git pull" to update your local branch)
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git pull
+Updating 48b295d..ec9ae6b
+Fast-forward
+ 2/2.2_arrays_delete.js | 62 ++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 62 insertions(+)
+ create mode 100644 2/2.2_arrays_delete.js
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ git checkout develop
+Switched to branch 'develop'
+Your branch is up-to-date with 'origin/develop'.
+Mike-Bel-Laptop:jspersonalref MikeBelLaptop$ 
