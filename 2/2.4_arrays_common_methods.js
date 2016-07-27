@@ -190,15 +190,6 @@ console.log(romanNumerals);
 
 
 
-var mixedArray = ['aa', 'bb', 'a', 'c', 'cc', 3, 4, 10];
-mixedArray.sort();
-console.log(mixedArray);
-
-
-
-
-
-
 
 
 
