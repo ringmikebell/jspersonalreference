@@ -33,7 +33,9 @@ var someClassmatesObject = {
 while someClassmatesArray and someClassmatesObject are essentially equilalent, arrays inherit from the Array.prototype which includes many useful methods that objects don't have.
 
 
-
+BOTTOM LINE (literally...the bottom line is on the bottom line...holding for applause...)
+(ok, well not any more since I took up too much space with my hilarious commentary :/  )
+--- if property names are sequential, low intergers (1, 2, 3, 4, 5...etc), use an array! ---
 
 
 
